@@ -11,17 +11,17 @@
 # else:
 #     print(False)
 # 15 Шатрын хөлөг дээр байрлах 2 тэмээний коардинат x1, y1, x2, y2 хэлбэртэй өгөгдсөн бол биесээ идэх бол true үгүй бол false гэж хэвлэ.
-t1x=input("тэмээ 1 ийн X координат: ")
-t1y=input("тэмээ 1 ийн Y координат: ")
-t2x=input("тэмээ 2 ийн X координат: ")
-t2y=input("тэмээ 2 ийн Y координат: ")
-if int(t1x)-int(t2x)==int(t1y)-int(t2y):
-    if t1x==t2x and t1y==t2y:
-        print("Буруу оруулаад байна")
-    else:
-        print("Идэх боломжтой")
-else:
-    print("Идэлцэхгүй")
+# t1x=input("тэмээ 1 ийн X координат: ")
+# t1y=input("тэмээ 1 ийн Y координат: ")
+# t2x=input("тэмээ 2 ийн X координат: ")
+# t2y=input("тэмээ 2 ийн Y координат: ")
+# if abs(int(t1x)-int(t2x))==abs(int(t1y)-int(t2y)):
+#     if t1x==t2x and t1y==t2y:
+#         print("Буруу оруулаад байна")
+#     else:
+#         print("Идэх боломжтой")
+# else:
+#     print("Идэлцэхгүй")
 # a=[3, 4, 5]
 # for x in a:
 #     print(x)
@@ -51,3 +51,13 @@ else:
 # b=a.replace("a","b")
 # print(b.replace("A","B"))
 # print(a.replace("a" or "A", "B"))
+# a=input()[::-1]
+# print(a[3]+a[2]+a[1]+a[0])
+# print(a)
+# a=int(input())
+# a=a-a%2+2
+# print(a)
+
+a=int(input())
+for i in range(1,10):
+    print(str(a)+"*"+str(i)+"="+str(a*i))
