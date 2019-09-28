@@ -1,0 +1,114 @@
+  # tx1=int(input())
+# ty1=int(input())
+# tx2=int(input())
+# ty2=int(input())
+# if tx1%2==ty1%2 and tx2%2!=ty2%2:
+#     print("YES")
+# else:
+#     print("NO")
+
+# 1.a ээс b хүртэлх тооний нийлбэр ол
+# s=0
+# a, b= [int(x) for x in input().split()]
+# for i in range(a,b+1):
+#     s=s+int(i)
+# print(s)    
+
+# s=0
+# a, b= [int(x) for x in input().split()]
+# for i in range(a,b+1):
+#     print(i,end=' ')
+
+# n=int(input())
+# for x in range(0,len(str(n))):
+#     print(str(n)[abs(int(x)-len(str(n))+1)],end='')
+
+# a,b=[int(x) for x in input().split()]
+# c=max(a,b)
+# d=min(a,b)
+# while d<=c:
+#     print(d, end=' ')
+#     d +=1
+
+# a,b=[int(x) for x in input().split()]
+# c=max(a,b)
+# d=min(a,b)
+# while d<=c:
+#     print(c)
+#     c -=1
+
+# a, b =[int(x) for x in input().split()]
+# s=0
+# for i in range(1,b+1):
+#     s=s+a
+# # print(s)
+
+
+# a, b =[int(x) for x in input().split()]
+# i=1
+# s=0
+# while i<=b:
+#     s=s+a
+#     i+=1
+# print(s)
+
+# s=0
+# for x in range(100,1000):
+#     if str(x)[0]==str(x)[2]:
+#         print(x, end=' ')
+#         s+=1
+# print(s)
+
+# x=100
+# s=0
+# while x<1000:
+#     if str(x)[0]==str(x)[2]:
+#         print(x, end=' ')
+#         s+=1
+#     x+=1
+# print(s)
+
+# n ээс m хүртэл бүх анхны тоонуудыг олох
+# n = int(input("n: "))
+# m = int(input("m: "))
+# c=0
+# ih = 0
+# for i in range(n, m+1):
+#     count = 0
+#     for j in range(2, i//2+1):
+#         if i % j == 0:
+#             count = count+1
+#     if count == 0:
+#         c=c+1
+#         print(i,end=' ')
+# print(c)
+
+# n=int(input())
+# c="Yes"
+# for x in (2,n//2+1):
+#     if n%x==0:
+#         c="No"
+# print(c)
+
+# n=int(input())
+# s=0
+# for x in range(1,n//2+1):
+#     if n%x==0:
+#         s=s+x
+# if s==n:
+#     print(True)
+# else:
+#     print(False)    
+
+   
+# n=int(input())
+# count=0
+# for i in range(2,n+1):
+#     s=0
+#     for x in range(1,i//2+1):
+#         if i%x==0:
+#             s=s+x
+#     if s==i:
+#         print(i)
+#         count=count+1
+# print(count)
